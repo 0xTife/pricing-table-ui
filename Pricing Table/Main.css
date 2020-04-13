@@ -1,0 +1,305 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: #1111;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.cards {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    background: none;
+    position: relative;
+    top: 50px;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.cards div {
+    border: 2px solid #fff;
+    height: 100%;
+    width: 250px;
+    border-radius: 10px;
+    background: #fff;
+    border-right: 1px solid #eee;
+}
+
+
+/*---------------CARD 1-------------------*/
+
+.card1 .cardhead {
+    width: 240px;
+    height: 200px;
+    border: 2px solid none;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #eee;
+    opacity: 0.6;
+}
+
+.card1 h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: orange;
+}
+
+.card1 ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    font-family: monospace;
+    opacity: 0.5;
+    padding: 10px 0 0 0;
+}
+
+.card1 ul li span {
+    font-weight: bolder;
+    opacity: 2;
+}
+
+.card1 ul {
+    padding: 0;
+}
+
+.card1 {
+    transition: 0.5s;
+}
+
+.card1:hover {
+    width: 260px;
+    box-shadow: 0px 10px 20px #444;
+    z-index: 1;
+}
+
+.card1img {
+    width: 80px;
+    height: 100px;
+    margin: auto;
+    margin-left: 80px;
+}
+
+.card1 .cardhead h1 {
+    text-align: center;
+    color: orange;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    background-color: orange;
+    border: 5px solid orange;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px 0 0 20;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 0px 10px 20px #ccc;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+/*----------------END OF CARD1-----------------*/
+
+
+/*-----------------CARD2--------------------*/
+
+.card2 .cardhead {
+    width: 240px;
+    height: 200px;
+    border: 2px solid none;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #eee;
+    opacity: 0.6;
+}
+
+.card2 h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: tomato;
+}
+
+.cardhead h1 {
+    color: tomato;
+    text-align: center;
+}
+
+.card2 ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    font-family: monospace;
+    opacity: 0.5;
+    padding: 10px 0 0 0;
+}
+
+.card2 ul li span {
+    font-weight: bolder;
+    opacity: 2;
+    color: tomato;
+}
+
+.card2 ul {
+    padding: 0;
+}
+
+.cards div:nth-child(2) .btn {
+    border: 2px solid tomato;
+    background-color: tomato;
+    transition: 2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.card2 {
+    transition: 0.5s;
+}
+
+.card2:hover {
+    width: 260px;
+    box-shadow: 0px 10px 20px #444;
+    z-index: 1;
+}
+
+
+/*---------------END OF CARD2------------------*/
+
+
+/*---------------CARD3------------------------*/
+
+.card3 .cardhead {
+    width: 240px;
+    height: 200px;
+    border: 2px solid none;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #eee;
+    opacity: 0.6;
+}
+
+.card3 h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: springgreen;
+}
+
+.card3 .cardhead h1 {
+    color: springgreen;
+    text-align: center;
+}
+
+.card3 ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    font-family: monospace;
+    opacity: 0.5;
+    padding: 10px 0 0 0;
+}
+
+.card3 ul li span {
+    font-weight: bolder;
+    opacity: 1;
+    color: springgreen;
+}
+
+.card3 ul {
+    padding: 0;
+}
+
+.cards div:nth-child(3) .btn {
+    border: 2px solid springgreen;
+    background-color: springgreen;
+    transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card3 {
+    transition: 0.5s;
+}
+
+.card3:hover {
+    width: 260px;
+    box-shadow: 0px 10px 20px #444;
+    z-index: 1;
+}
+
+
+/*------------------END OF CARD3------------------*/
+
+
+/*-------------------CARD4-----------------*/
+
+.card4 .cardhead {
+    width: 240px;
+    height: 200px;
+    border: 2px solid none;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #eee;
+    opacity: 0.6;
+}
+
+.card4 h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: mediumpurple;
+}
+
+.card4 ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    font-family: monospace;
+    opacity: 0.5;
+    padding: 10px 0 0 0;
+}
+
+.card4 ul li span {
+    font-weight: bolder;
+    opacity: 1;
+    color: mediumpurple;
+}
+
+.card4 ul {
+    padding: 0;
+}
+
+.cards div:nth-child(4) .btn {
+    border: 2px solid mediumpurple;
+    background-color: mediumpurple;
+    transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card4 {
+    transition: 0.5s;
+}
+
+.card4:hover {
+    width: 260px;
+    box-shadow: 0px 10px 20px #444;
+    z-index: 1;
+}
+
+.card4 .cardhead h1 {
+    color: mediumpurple;
+}
+
+
+/*------------------END OF CARD4-----------------*/
